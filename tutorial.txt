@@ -1,0 +1,9 @@
+git init
+git remote add origin https://github.com/Misians/curso-git-embarcatech.git
+git add dados.txt
+git commit -m "primeiro commit"
+git add tutorial.txt
+git commit -m "segundo commit"
+git branch -M master
+
+git push -u origin master
